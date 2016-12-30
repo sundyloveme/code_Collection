@@ -21,7 +21,8 @@ int compareVersion(char* version1, char* version2) {
 			}
 		}
 		
-		version1=version2=NULL;
+		version1=NULL;
+		version2=NULL;
 
 		if(v1!=v2) {
 			return (v1>v2)?(1):(-1);
